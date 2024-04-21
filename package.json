@@ -17,7 +17,8 @@
 	},
 	"author": "mel <McMelonTV>",
 	"dependencies": {
-		"discord.js": "^14.12.1"
+		"discord.js": "^14.12.1",
+		"dotenv": "^16.4.5"
 	},
 	"devDependencies": {
 		"@types/node": "^18.16.3",
