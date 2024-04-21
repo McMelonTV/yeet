@@ -1,0 +1,27 @@
+{
+	"name": "yeet",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "A simple bot to mass-ban dangerous accounts",
+	"main": "build/index.js",
+	"scripts": {
+		"run": "node build/index.js",
+		"start": "npm run build && npm run run",
+		"clean": "rimraf ./build",
+		"build": "npm run clean && tsc -p ./tsconfig.json",
+		"watch": "tsc -p ./tsconfig.json --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/McMelonTV/yeet.git"
+	},
+	"author": "mel <McMelonTV>",
+	"dependencies": {
+		"discord.js": "^14.12.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.16.3",
+		"rimraf": "^5.0.0",
+		"typescript": "^5.0.4"
+	}
+}
